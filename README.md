@@ -4,7 +4,7 @@ In October 2024, Telegram [has started a transparency bot](https://www.404media.
 
 This bot only provides data for the country in which the Telegram account demanding data is registered. For instance in France:
 
-![](fra_2024-10-10.jpg)
+![](fra_2024-10-10.jpg | width=300)
 
 This [dataset](dataset.json) has been built by collecting this data from users in multiple countries in order to have a more precise view of legal requests toward Telegram.
 
