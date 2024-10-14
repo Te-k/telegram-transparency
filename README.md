@@ -6,7 +6,7 @@ This bot only provides data for the country in which the Telegram account demand
 
 ![](fra_2024-10-10.jpg)
 
-This [dataset](dataset.json) contains Telegram transparency data for 2024 on 43 countries so far based on contribution from people all around the world, special thanks to the amazing Mastodon community!
+This [dataset](dataset.json) contains Telegram transparency data for 2024 on 44 countries so far based on contribution from people all around the world, special thanks to the amazing Mastodon community!
 
 ## Contributing
 
