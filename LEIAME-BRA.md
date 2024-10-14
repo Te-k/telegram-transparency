@@ -4,7 +4,7 @@ Em outubro de 2024, o Telegram [iniciou um bot de transparência](https://www.40
 
 Este bot fornece apenas dados para o país em que a conta do Telegram que solicita dados está registrada. Por exemplo, no Brasil:
 
-![Imagem de tela para relatório sobre Brasil como publicado em 14 de outubro de 2024. Mostrando](telegram-transparency-report-as-20241014)
+![Imagem de tela para relatório sobre Brasil como publicado em 14 de outubro de 2024. Mostrando](telegram-transparency-report-as-20241014.jpg)
 
 Este [conjunto de dados](dataset.json) contém dados de transparência do Telegram para 2024 em 43 países até agora com base na contribuição de pessoas de todo o mundo, agradecimentos especiais à incrível comunidade no Mastodon!
 
