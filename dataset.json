@@ -154,5 +154,20 @@
     ],
     "LAO": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+    ],
+    "ARM": [
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+    ],
+    "TUR": [
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+    ],
+    "MLT": [
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+    ],
+    "BLR": [
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+    ],
+    "LTU": [
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ]
 }
