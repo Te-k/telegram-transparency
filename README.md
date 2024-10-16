@@ -6,7 +6,7 @@ This bot only provides data for the country in which the Telegram account demand
 
 ![](img/fra_2024-10-10.jpg)
 
-This [dataset](dataset.json) contains Telegram transparency data for 2024 on **57 countries** so far based on contribution from people all around the world (special thanks to the amazing Mastodon community!). Each entry is the [Alpha-3 country code](https://www.iban.com/country-codes) of a country and contains number of requests by the authorities and number of users affected for specific period of time (most of the time January 1st to September 30th 2024 for now).
+This [dataset](dataset.json) contains Telegram transparency data for 2024 on **61 countries** so far based on contribution from people all around the world (special thanks to the amazing Mastodon community!). Each entry is the [Alpha-3 country code](https://www.iban.com/country-codes) of a country and contains number of requests by the authorities and number of users affected for specific period of time (most of the time January 1st to September 30th 2024 for now).
 
 ## Contributing
 

@@ -181,5 +181,20 @@
     ],
     "KGZ": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+    ],
+    "AUS": [
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+    ],
+    "FIN": [
+        {"from": "20240101", "to": "20240930", "requests": 5, "users": 14}
+    ],
+    "HUN": [
+        {"from": "20240101", "to": "20240331", "requests": 0, "users": 0},
+        {"from": "20240401", "to": "20240630", "requests": 1, "users": 1},
+        {"from": "20240701", "to": "20240930", "requests": 3, "users": 11},
+        {"from": "20240101", "to": "20240930", "requests": 4, "users": 12}
+    ],
+    "CYP": [
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ]
 }
