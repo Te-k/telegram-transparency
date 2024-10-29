@@ -6,7 +6,7 @@ In September 2024, Telegram [has changed its policy](https://www.bbc.com/news/ar
 
 Considering the recent change in Telegram policy, it is a timely moment to start consolidating this data to have an overview of how many requests Telegram accept from authorities and where.
 
-This [dataset](dataset.json) contains Telegram transparency data for 2024 on **71 countries** so far based on contribution from people all around the world (special thanks to the amazing Mastodon community!). Each entry is the [Alpha-3 country code](https://www.iban.com/country-codes) of a country and contains number of requests by the authorities and number of users affected for specific period of time (most of the time January 1st to September 30th 2024 for now).
+This [dataset](dataset.json) contains Telegram transparency data for 2024 on **72 countries** so far based on contribution from people all around the world (special thanks to the amazing Mastodon community!). Each entry is the [Alpha-3 country code](https://www.iban.com/country-codes) of a country and contains number of requests by the authorities and number of users affected for specific period of time (most of the time January 1st to September 30th 2024 for now).
 
 ## Acknowledements
 
@@ -14,9 +14,9 @@ This [dataset](dataset.json) contains Telegram transparency data for 2024 on **7
 * The [Meduza](https://meduza.io/) data [and community](https://x.com/zd_vladislav/status/1842181592778690728)
 * The Telegram channel [All Transparency Reports](https://t.me/TransparencyReport2024)
 
-## Contributing
+## Please contribute!
 
-Please [open an issue](https://github.com/Te-k/telegram-transparency/issues) with the screenshot of the Telegram's bot answer, or send me an email at _tek AT randhome.io_.
+You can contribute to this dataset by contacting the Telegram bot [@transparency](https://t.me/transparency) and sharing a screenshot of its answer. You can share this screenshot either by [opening an issue](https://github.com/Te-k/telegram-transparency/issues) or sending me an email at _tek AT randhome.io_.
 
 ## License
 
