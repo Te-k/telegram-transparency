@@ -30,13 +30,15 @@
         {"from": "20240101", "to": "20240930", "requests": 6, "users": 18}
     ],
     "ESP": [
-        {"from": "20240101", "to": "20240930", "requests": 22, "users": 85}
+        {"from": "20240101", "to": "20240930", "requests": 22, "users": 85},
+        {"from": "20240101", "to": "20241231", "requests": 213, "users": 518}
     ],
     "GBR": [
         {"from": "20240101", "to": "20240930", "requests": 3, "users": 7}
     ],
     "SVK": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20240101", "to": "20241231", "requests": 2, "users": 11}
     ],
     "CZE": [
         {"from": "20240101", "to": "20240930", "requests": 2, "users": 2}
