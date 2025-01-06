@@ -1,5 +1,7 @@
 # telegram-transparency
 
+**See the data [HERE](https://te-k.github.io/telegram-transparency/)**
+
 In September 2024, Telegram [has changed its policy](https://www.bbc.com/news/articles/cvglp0xny3eo) to start accepting more requests from authorities. It turns out that Telegram has had a [@transparency](https://t.me/transparency) bot since [2018](https://meduza.io/en/news/2018/08/28/telegram-founder-assures-users-that-his-instant-messenger-s-new-privacy-policy-doesn-t-mean-he-s-getting-in-bed-with-the-fsb) but this bot only provides data for the country in which the Telegram account demanding data is registered. For instance in France:
 
 
@@ -8,8 +10,6 @@ In September 2024, Telegram [has changed its policy](https://www.bbc.com/news/ar
 Considering the recent change in Telegram policy, it is a timely moment to start consolidating this data to have an overview of how many requests Telegram accept from authorities and where.
 
 This [dataset](dataset.json) contains Telegram transparency data for 2024 on **74 countries** so far based on contribution from people all around the world (special thanks to the amazing Mastodon community!). Each entry is the [Alpha-3 country code](https://www.iban.com/country-codes) of a country and contains number of requests by the authorities and number of users affected for specific period of time (most of the time January 1st to September 30th 2024 for now).
-
-See the data [here](https://te-k.github.io/telegram-transparency/).
 
 ## Acknowledements
 
