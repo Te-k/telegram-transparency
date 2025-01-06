@@ -1,7 +1,7 @@
 var dataset;
 
 async function getData() {
-  const url = "/dataset.json";
+  const url = "dataset.json";
   try {
     const response = await fetch(url);
     if (!response.ok) {
