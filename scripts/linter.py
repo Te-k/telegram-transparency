@@ -3,6 +3,8 @@ import argparse
 import os
 import sys
 
+EXISTING_DATES = ["20240101", "20240331", "20240401", "20240630", "20240701", "20240930", "20241001", "20241231"]
+
 
 def check_format(fpath):
     try:
@@ -31,6 +33,12 @@ def check_format(fpath):
                 if k not in entry:
                     print("Invalid entry for {}: missing {}".format(country, k))
                     success = False
+            if entry["from"] not in EXISTING_DATES:
+                print("Invalid date {} for {}".format(entry["from"], country))
+                success = False
+            if entry["to"] not in EXISTING_DATES:
+                print("Invalid date {} for {}".format(entry["to"], country))
+                success = False
 
     return success
 

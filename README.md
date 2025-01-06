@@ -14,6 +14,10 @@ This [dataset](dataset.json) contains Telegram transparency data for 2024 on **7
 * The [Meduza](https://meduza.io/) data [and community](https://x.com/zd_vladislav/status/1842181592778690728)
 * The Telegram channel [All Transparency Reports](https://t.me/TransparencyReport2024)
 
+## Articles on this topic
+
+* Jan 2025: [Telegram Hands U.S. Authorities Data on Thousands of Users](https://www.404media.co/telegram-hands-u-s-authorities-data-on-thousands-of-users/)
+
 ## Please contribute!
 
 You can contribute to this dataset by contacting the Telegram bot [@transparency](https://t.me/transparency) and sharing a screenshot of its answer. You can share this screenshot either by [opening an issue](https://github.com/Te-k/telegram-transparency/issues) or sending me an email at _tek AT randhome.io_.
