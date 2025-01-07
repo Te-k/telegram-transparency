@@ -44,7 +44,9 @@
         {"from": "20240101", "to": "20241231", "requests": 2, "users": 11}
     ],
     "CZE": [
-        {"from": "20240101", "to": "20240930", "requests": 2, "users": 2}
+        {"from": "20240101", "to": "20240930", "requests": 2, "users": 2},
+        {"from": "20241001", "to": "20241231", "requests": 8, "users": 21},
+        {"from": "20240101", "to": "20241231", "requests": 10, "users": 23}
     ],
     "BEL": [
         {"from": "20240101", "to": "20240331", "requests": 1, "users": 1},
