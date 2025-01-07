@@ -34,7 +34,9 @@
         {"from": "20240101", "to": "20241231", "requests": 213, "users": 518}
     ],
     "GBR": [
-        {"from": "20240101", "to": "20240930", "requests": 3, "users": 7}
+        {"from": "20240101", "to": "20240930", "requests": 3, "users": 7},
+        {"from": "20241001", "to": "20241231", "requests": 139, "users": 292},
+        {"from": "20240101", "to": "20241231", "requests": 142, "users": 293}
     ],
     "SVK": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
@@ -47,7 +49,9 @@
         {"from": "20240101", "to": "20240331", "requests": 1, "users": 1},
         {"from": "20240401", "to": "20240630", "requests": 4, "users": 4},
         {"from": "20240701", "to": "20240930", "requests": 53, "users": 125},
-        {"from": "20240101", "to": "20240930", "requests": 58, "users": 130}
+        {"from": "20240101", "to": "20240930", "requests": 58, "users": 130},
+        {"from": "20241001", "to": "20241231", "requests": 165, "users": 464},
+        {"from": "20240101", "to": "20241231", "requests": 223, "users": 594}
     ],
     "CAN": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
@@ -112,7 +116,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "PRT": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20241001", "to": "20241231", "requests": 5, "users": 6},
+        {"from": "20240101", "to": "20241231", "requests": 5, "users": 6}
     ],
     "BGR": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
@@ -198,7 +204,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "FIN": [
-        {"from": "20240101", "to": "20240930", "requests": 5, "users": 14}
+        {"from": "20240101", "to": "20240930", "requests": 5, "users": 14},
+        {"from": "20241001", "to": "20241231", "requests": 19, "users": 59},
+        {"from": "20240101", "to": "20241231", "requests": 24, "users": 73}
     ],
     "HUN": [
         {"from": "20240101", "to": "20240331", "requests": 0, "users": 0},
@@ -222,7 +230,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "KOR": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20241001", "to": "20241231", "requests": 270, "users": 658},
+        {"from": "20240101", "to": "20241231", "requests": 270, "users": 658}
     ],
     "NER": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
@@ -246,6 +256,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "MDA": [
+        {"from": "20240101", "to": "20241231", "requests": 1, "users": 1}
+    ],
+    "ISL": [
         {"from": "20240101", "to": "20241231", "requests": 1, "users": 1}
     ]
 }
