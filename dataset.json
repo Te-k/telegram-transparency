@@ -150,7 +150,9 @@
         {"from": "20240101", "to": "20240930", "requests": 203, "users": 369}
     ],
     "ARE": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20241001", "to": "20241231", "requests": 6, "users": 23},
+        {"from": "20240101", "to": "20241231", "requests": 6, "users": 23}
     ],
     "UZB": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
