@@ -18,7 +18,9 @@
         {"from": "20240101", "to": "20241231", "requests": 55, "users": 230}
     ],
     "DEU": [
-        {"from": "20240101", "to": "20240930", "requests": 53, "users": 115}
+        {"from": "20240101", "to": "20240930", "requests": 53, "users": 115},
+        {"from": "20241001", "to": "20241231", "requests": 892, "users": 2122},
+        {"from": "20240101", "to": "20241231", "requests": 945, "users": 2237}
     ],
     "ROU": [
         {"from": "20240101", "to": "20240930", "requests": 3, "users": 3},
@@ -32,6 +34,7 @@
     ],
     "ESP": [
         {"from": "20240101", "to": "20240930", "requests": 22, "users": 85},
+        {"from": "20241001", "to": "20241231", "requests": 191, "users": 433},
         {"from": "20240101", "to": "20241231", "requests": 213, "users": 518}
     ],
     "GBR": [
@@ -138,7 +141,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "MYS": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20241001", "to": "20241231", "requests": 4, "users": 11},
+        {"from": "20240101", "to": "20241231", "requests": 4, "users": 11}
     ],
     "MEX": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
@@ -150,7 +155,9 @@
         {"from": "20240101", "to": "20240331", "requests": 75, "users": 133},
         {"from": "20240401", "to": "20240630", "requests": 63, "users": 114},
         {"from": "20240701", "to": "20240930", "requests": 65, "users": 122},
-        {"from": "20240101", "to": "20240930", "requests": 203, "users": 369}
+        {"from": "20241001", "to": "20241231", "requests": 99, "users": 639},
+        {"from": "20240101", "to": "20240930", "requests": 203, "users": 369},
+        {"from": "20240101", "to": "20241231", "requests": 302, "users": 1008}
     ],
     "ARE": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
@@ -161,7 +168,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "EST": [
-        {"from": "20240101", "to": "20240930", "requests": 2, "users": 5}
+        {"from": "20240101", "to": "20240930", "requests": 2, "users": 5},
+        {"from": "20241001", "to": "20241231", "requests": 9, "users": 44},
+        {"from": "20240101", "to": "20241231", "requests": 11, "users": 49}
     ],
     "NGA": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
@@ -206,7 +215,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "AUS": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20241001", "to": "20241231", "requests": 14, "users": 23},
+        {"from": "20240101", "to": "20241231", "requests": 14, "users": 23}
     ],
     "FIN": [
         {"from": "20240101", "to": "20240930", "requests": 5, "users": 14},
