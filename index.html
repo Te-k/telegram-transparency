@@ -23,11 +23,13 @@
     </div>
   </header>
   <main>
+      <div class="row">
+          <div class="col col-lg-12">
       <div class="mb-3">In September 2024, Telegram <a href="<S-Del>https://www.bbc.com/news/articles/cvglp0xny3eo" target="_blank">has changed its policy</a> to start accepting more requests from authorities. It turns out that Telegram has had a <a href="https://t.me/transparency" target="_blank">@transparency</a> bot since <a href="https://meduza.io/en/news/2018/08/28/telegram-founder-assures-users-that-his-instant-messenger-s-new-privacy-policy-doesn-t-mean-he-s-getting-in-bed-with-the-fsb" target="_blank">2018</a> but this bot only provides data for the country in which the Telegram account demanding data is registered. This webpage provides <b>crowdsourced consolidated data on Telegram transparency all over the world</b>.
       </div>
     <div>
         <h2>Data</h2>
-        <div class="mb-3"><label for="pet-select">Time period:</label>
+        <div class="mb-3"><label for="data-period">Time period:</label>
             <select id="data-period">
                 <option value="2024Q13" selected="selected">2024 Q1 to Q3</option>
                 <option value="2024">2024</option>
@@ -52,9 +54,35 @@
     <div>
         <center><a href="https://github.com/Te-k/telegram-transparency/blob/main/dataset.json" target="_blank">See raw data</a></center>
     </div>
-</div>
-</div>
-    </main>
+    </div>
+    <div class="col col-lg-12">
+    <div>
+        <h2>Country</h2>
+        <div class="row">
+            <div class="col-8 offset-md-2">
+            <div class="mb-3"><label for="country-select">Data for a specific country:</label>
+                <select id="country-select">
+                </select>
+            </div>
+            <table class="table" id="country-table">
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="4" class="text-center">2024</th>
+                </tr>
+                <tr>
+                    <th class="text-center">Q1</th>
+                    <th class="text-center">Q2</th>
+                    <th class="text-center">Q3</th>
+                    <th class="text-center">Q4</th>
+                </tr>
+            </table>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+</main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

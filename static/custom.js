@@ -10,12 +10,23 @@ async function getData() {
 
     dataset = await response.json();
     drawtable();
+    listCountriesSelect();
+    drawCountry();
   } catch (error) {
     console.error(error.message);
   }
 }
 
 getData();
+
+function listCountriesSelect() {
+    for (country in dataset) {
+      $('#country-select').append($('<option>', {
+        value: country,
+        text: getCountryName(country)
+    }));
+  }
+}
 
 function drawtable() {
     var $table = $('#dataTable')
@@ -52,6 +63,63 @@ function drawtable() {
     $table.bootstrapTable('sortBy', {field: 'requests', sortOrder: 'desc'})
 }
 
+function drawCountry() {
+  // It is ugly but it works
+  $(".temp").remove();
+  var country = $("#country-select").find(":selected").val()
+  var entryq1 = dataset[country].filter((entry) => entry["from"] == "20240101" && entry["to"] == "20240331")[0];
+  var entryq2 = dataset[country].filter((entry) => entry["from"] == "20240401" && entry["to"] == "20240630")[0];
+  var entryq3 = dataset[country].filter((entry) => entry["from"] == "20240701" && entry["to"] == "20240930")[0];
+  var entryq4 = dataset[country].filter((entry) => entry["from"] == "20241001" && entry["to"] == "20241231")[0];
+  var entryq13 = dataset[country].filter((entry) => entry["from"] == "20240101" && entry["to"] == "20240930")[0];
+  var entry2024 = dataset[country].filter((entry) => entry["from"] == "20240101" && entry["to"] == "20241231")[0];
+  if (entryq1 !== undefined) {
+    $("#country-table").find('tbody')
+    .append($('<tr class="temp">')
+        .append($('<th rowspan="2">').text('Requests'))
+        .append($('<td class="text-center">').text(entryq1 === undefined ? "Unknown" : entryq1.requests))
+        .append($('<td class="text-center">').text(entryq2 === undefined ? "Unknown" : entryq2.requests))
+        .append($('<td class="text-center">').text(entryq3 === undefined ? "Unknown" : entryq3.requests))
+        .append($('<td class="text-center">').text(entryq4 === undefined ? "Unknown" : entryq4.requests))
+      );
+      $("#country-table").find('tbody')
+      .append($('<tr class="temp">')
+        .append($('<td colspan="4" class="text-center">').text(entry2024 === undefined ? "Unknown" : entry2024.requests))
+      )
+      .append($('<tr class="temp">')
+        .append($('<th rowspan="3">').text('Users'))
+        .append($('<td class="text-center">').text(entryq1 === undefined ? "Unknown" : entryq1.users))
+        .append($('<td class="text-center">').text(entryq2 === undefined ? "Unknown" : entryq2.users))
+        .append($('<td class="text-center">').text(entryq3 === undefined ? "Unknown" : entryq3.users))
+        .append($('<td class="text-center">').text(entryq4 === undefined ? "Unknown" : entryq4.users))
+      );
+      $("#country-table").find('tbody')
+      .append($('<tr class="temp">')
+        .append($('<td colspan="4" class="text-center">').text(entry2024 === undefined ? "Unknown" : entry2024.users))
+      )
+  } else {
+    $("#country-table").find('tbody')
+    .append($('<tr class="temp">')
+        .append($('<th rowspan="2">').text('Requests'))
+        .append($('<td class="text-center" colspan="3">').text(entryq13 === undefined ? "Unknown" : entryq13.requests))
+        .append($('<td class="text-center">').text(entryq4 === undefined ? "Unknown" : entryq4.requests))
+      );
+      $("#country-table").find('tbody')
+      .append($('<tr class="temp">')
+      .append($('<td colspan="4" class="text-center">').text(entry2024 === undefined ? "Unknown" : entry2024.requests))
+      )
+      .append($('<tr class="temp">')
+        .append($('<th rowspan="3">').text('Users'))
+        .append($('<td class="text-center" colspan="3">').text(entryq13 === undefined ? "Unknown" : entryq13.users))
+        .append($('<td class="text-center">').text(entryq4 === undefined ? "Unknown" : entryq4.users))
+      );
+      $("#country-table").find('tbody')
+      .append($('<tr class="temp">')
+        .append($('<td colspan="4" class="text-center">').text(entry2024 === undefined ? "Unknown" : entry2024.users))
+      )
+  }
+}
+
 function getCountryData(country, period="2024") {
     for (cc in dataset) {
       if (getCountryName(cc) == country) {
@@ -64,6 +132,10 @@ function getCountryData(country, period="2024") {
 
 $("#data-period").on('change', function() {
     drawtable();
+});
+
+$('#country-select').on('change', function() {
+  drawCountry();
 });
 
 
