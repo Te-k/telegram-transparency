@@ -143,7 +143,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "IDN": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20241001", "to": "20241231", "requests": 2, "users": 2},
+        {"from": "20240101", "to": "20241231", "requests": 2, "users": 2}
     ],
     "MYS": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
@@ -184,7 +186,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "KAZ": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20241001", "to": "20241231", "requests": 74, "users": 496},
+        {"from": "20240101", "to": "20241231", "requests": 74, "users": 496}
     ],
     "THA": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
@@ -233,7 +237,9 @@
         {"from": "20240101", "to": "20240331", "requests": 0, "users": 0},
         {"from": "20240401", "to": "20240630", "requests": 1, "users": 1},
         {"from": "20240701", "to": "20240930", "requests": 3, "users": 11},
-        {"from": "20240101", "to": "20240930", "requests": 4, "users": 12}
+        {"from": "20240101", "to": "20240930", "requests": 4, "users": 12},
+        {"from": "20241001", "to": "20241231", "requests": 11, "users": 13},
+        {"from": "20240101", "to": "20241231", "requests": 15, "users": 25}
     ],
     "CYP": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
