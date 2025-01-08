@@ -20,10 +20,21 @@ async function getData() {
 getData();
 
 function listCountriesSelect() {
-    for (country in dataset) {
+  countries = $.map(dataset, function(value, key) { return {"code": key, "country": getCountryName(key)} });
+  sorted_countries = countries.sort((a, b) => {
+    if (a.country < b.country) {
+      return -1;
+    }
+    if (a.country > b.country) {
+      return 1;
+    }
+
+    return 0;
+  })
+  for (country in sorted_countries) {
       $('#country-select').append($('<option>', {
-        value: country,
-        text: getCountryName(country)
+        value: sorted_countries[country].code,
+        text: sorted_countries[country].country
     }));
   }
 }
