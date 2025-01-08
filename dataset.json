@@ -27,10 +27,14 @@
         {"from": "20240101", "to": "20241231", "requests": 17, "users": 40}
     ],
     "POL": [
-        {"from": "20240101", "to": "20240930", "requests": 13, "users": 53}
+        {"from": "20240101", "to": "20240930", "requests": 13, "users": 53},
+        {"from": "20241001", "to": "20241231", "requests": 145, "users": 493},
+        {"from": "20240101", "to": "20241231", "requests": 158, "users": 546}
     ],
     "ITA": [
-        {"from": "20240101", "to": "20240930", "requests": 6, "users": 18}
+        {"from": "20240101", "to": "20240930", "requests": 6, "users": 18},
+        {"from": "20241001", "to": "20241231", "requests": 152, "users": 401},
+        {"from": "20240101", "to": "20241231", "requests": 158, "users": 419}
     ],
     "ESP": [
         {"from": "20240101", "to": "20240930", "requests": 22, "users": 85},
