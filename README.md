@@ -9,7 +9,7 @@ In September 2024, Telegram [has changed its policy](https://www.bbc.com/news/ar
 
 Considering the recent change in Telegram policy, it is a timely moment to start consolidating this data to have an overview of how many requests Telegram accept from authorities and where.
 
-This [dataset](dataset.json) contains Telegram transparency data for 2024 on **75 countries** so far based on contribution from people all around the world (special thanks to the amazing Mastodon community!). Each entry is the [Alpha-3 country code](https://www.iban.com/country-codes) of a country and contains number of requests by the authorities and number of users affected for specific period of time (most of the time January 1st to September 30th 2024 for now).
+This [dataset](dataset.json) contains Telegram transparency data for 2024 on **76 countries** so far based on contribution from people all around the world (special thanks to the amazing Mastodon community!). Each entry is the [Alpha-3 country code](https://www.iban.com/country-codes) of a country and contains number of requests by the authorities and number of users affected for specific period of time (most of the time January 1st to September 30th 2024 for now).
 
 ## Acknowledements
 
