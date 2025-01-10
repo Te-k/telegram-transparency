@@ -183,7 +183,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "SRB": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20241001", "to": "20241231", "requests": 1, "users": 1},
+        {"from": "20240101", "to": "20241231", "requests": 1, "users": 1}
     ],
     "KAZ": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
