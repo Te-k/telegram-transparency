@@ -202,7 +202,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "TUR": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20241001", "to": "20241231", "requests": 21, "users": 236},
+        {"from": "20240101", "to": "20241231", "requests": 21, "users": 236}
     ],
     "MLT": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
