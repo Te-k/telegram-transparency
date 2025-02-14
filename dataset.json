@@ -221,7 +221,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "LVA": [
-        {"from": "20240101", "to": "20240930", "requests": 1, "users": 1}
+        {"from": "20240101", "to": "20240930", "requests": 1, "users": 1},
+        {"from": "20241001", "to": "20241231", "requests": 22, "users": 54},
+        {"from": "20240101", "to": "20241231", "requests": 23, "users": 55}
     ],
     "HRV": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
