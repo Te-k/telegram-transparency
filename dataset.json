@@ -88,7 +88,9 @@
         {"from": "20240101", "to": "20241231", "requests": 17, "users": 63}
     ],
     "CHE": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20241001", "to": "20241231", "requests": 32, "users": 77},
+        {"from": "20240101", "to": "20241231", "requests": 32, "users": 77}
     ],
     "ARG": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
