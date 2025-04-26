@@ -29,7 +29,8 @@
     "ROU": [
         {"from": "20240101", "to": "20240930", "requests": 3, "users": 3},
         {"from": "20241001", "to": "20241231", "requests": 14, "users": 37},
-        {"from": "20240101", "to": "20241231", "requests": 17, "users": 40}
+        {"from": "20240101", "to": "20241231", "requests": 17, "users": 40},
+        {"from": "20250101", "to": "20250331", "requests": 37, "users": 88}
     ],
     "POL": [
         {"from": "20240101", "to": "20240930", "requests": 13, "users": 53},
