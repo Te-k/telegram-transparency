@@ -40,7 +40,8 @@
     "ITA": [
         {"from": "20240101", "to": "20240930", "requests": 6, "users": 18},
         {"from": "20241001", "to": "20241231", "requests": 152, "users": 401},
-        {"from": "20240101", "to": "20241231", "requests": 158, "users": 419}
+        {"from": "20240101", "to": "20241231", "requests": 158, "users": 419},
+        {"from": "20250101", "to": "20250331", "requests": 272, "users": 1324}
     ],
     "ESP": [
         {"from": "20240101", "to": "20240930", "requests": 22, "users": 85},
@@ -103,7 +104,8 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "AUT": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20250101", "to": "20250331", "requests": 61, "users": 92}
     ],
     "ISR": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
