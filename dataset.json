@@ -94,7 +94,8 @@
     "SWE": [
         {"from": "20240101", "to": "20240930", "requests": 3, "users": 17},
         {"from": "20241001", "to": "20241231", "requests": 14, "users": 46},
-        {"from": "20240101", "to": "20241231", "requests": 17, "users": 63}
+        {"from": "20240101", "to": "20241231", "requests": 17, "users": 63},
+        {"from": "20250101", "to": "20250331", "requests": 25, "users": 185}
     ],
     "CHE": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
