@@ -108,7 +108,7 @@ function drawCountry() {
         .append($('<td class="text-center">').text(entryq2 === undefined ? "Unknown" : entryq2.users))
         .append($('<td class="text-center">').text(entryq3 === undefined ? "Unknown" : entryq3.users))
         .append($('<td class="text-center">').text(entryq4 === undefined ? "Unknown" : entryq4.users))
-        .append($('<td class="text-center">').text(entry2025q1 === undefined ? "Unknown" : entryq2025q1.users))
+        .append($('<td class="text-center">').text(entry2025q1 === undefined ? "Unknown" : entry2025q1.users))
       );
       $("#country-table").find('tbody')
       .append($('<tr class="temp">')
