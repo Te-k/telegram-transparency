@@ -19,7 +19,9 @@ This [dataset](dataset.json) contains Telegram transparency data for 2024 and 20
 
 ## Articles on this topic
 
+* Oct 2024: [Crowdsourcing Telegram ‘transparency reports’ to map the network’s claimed compliance with governments around the world](https://meduza.io/en/feature/2024/10/23/crowdsourcing-telegram-transparency-reports-to-map-the-network-s-claimed-compliance-with-governments-around-the-world)
 * Jan 2025: [Telegram Hands U.S. Authorities Data on Thousands of Users](https://www.404media.co/telegram-hands-u-s-authorities-data-on-thousands-of-users/)
+* May 2025: [Telegram Gave Authorities Data on More than 20,000 Users](https://www.404media.co/telegram-gave-authorities-data-on-more-than-20-000-users/)
 
 ## Please contribute!
 
