@@ -149,7 +149,8 @@
     "PRT": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
         {"from": "20241001", "to": "20241231", "requests": 5, "users": 6},
-        {"from": "20240101", "to": "20241231", "requests": 5, "users": 6}
+        {"from": "20240101", "to": "20241231", "requests": 5, "users": 6},
+        {"from": "20250101", "to": "20250331", "requests": 51, "users": 147}
     ],
     "BGR": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
@@ -265,7 +266,8 @@
     "FIN": [
         {"from": "20240101", "to": "20240930", "requests": 5, "users": 14},
         {"from": "20241001", "to": "20241231", "requests": 19, "users": 59},
-        {"from": "20240101", "to": "20241231", "requests": 24, "users": 73}
+        {"from": "20240101", "to": "20241231", "requests": 24, "users": 73},
+        {"from": "20250101", "to": "20250331", "requests": 60, "users": 166}
     ],
     "HUN": [
         {"from": "20240101", "to": "20240331", "requests": 0, "users": 0},
