@@ -177,7 +177,8 @@
         {"from": "20241001", "to": "20241231", "requests": 5, "users": 6},
         {"from": "20240101", "to": "20241231", "requests": 5, "users": 6},
         {"from": "20250101", "to": "20250331", "requests": 51, "users": 147},
-        {"from": "20250401", "to": "20250630", "requests": 28, "users": 44}
+        {"from": "20250401", "to": "20250630", "requests": 28, "users": 44},
+        {"from": "20250701", "to": "20250930", "requests": 27, "users": 51}
     ],
     "BGR": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
