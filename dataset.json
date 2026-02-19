@@ -349,7 +349,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
         {"from": "20250101", "to": "20250331", "requests": 9, "users": 131},
         {"from": "20250401", "to": "20250630", "requests": 5, "users": 31},
-        {"from": "20250701", "to": "20250930", "requests": 2, "users": 16}
+        {"from": "20250701", "to": "20250930", "requests": 2, "users": 16},
+        {"from": "20251001", "to": "20251231", "requests": 1, "users": 15},
+        {"from": "20250101", "to": "20251231", "requests": 17, "users": 193}
     ],
     "MNE": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
