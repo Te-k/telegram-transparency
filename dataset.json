@@ -151,7 +151,9 @@
     "ARG": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
         {"from": "20250101", "to": "20250630", "requests": 1, "users": 2},
-        {"from": "20250701", "to": "20250930", "requests": 21, "users": 42}
+        {"from": "20250701", "to": "20250930", "requests": 21, "users": 42},
+        {"from": "20251001", "to": "20251231", "requests": 17, "users": 60},
+        {"from": "20250101", "to": "20251231", "requests": 39, "users": 104}
     ],
     "AUT": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
