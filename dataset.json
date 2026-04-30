@@ -69,7 +69,8 @@
         {"from": "20240101", "to": "20241231", "requests": 158, "users": 419},
         {"from": "20250101", "to": "20250331", "requests": 272, "users": 1324},
         {"from": "20250401", "to": "20250630", "requests": 156, "users": 528},
-        {"from": "20250701", "to": "20250930", "requests": 139, "users": 312}
+        {"from": "20250701", "to": "20250930", "requests": 139, "users": 312},
+        {"from": "20260101", "to": "20260331", "requests": 267, "users": 569}
     ],
     "ESP": [
         {"from": "20240101", "to": "20240930", "requests": 22, "users": 85},
@@ -90,7 +91,8 @@
         {"from": "20250401", "to": "20250630", "requests": 459, "users": 988},
         {"from": "20250701", "to": "20250930", "requests": 616, "users": 1315},
         {"from": "20251001", "to": "20251231", "requests": 705, "users": 1442},
-        {"from": "20250101", "to": "20251231", "requests": 2085, "users": 4298}
+        {"from": "20250101", "to": "20251231", "requests": 2085, "users": 4298},
+        {"from": "20260101", "to": "20260331", "requests": 795, "users": 1420}
     ],
     "SVK": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
@@ -112,7 +114,8 @@
         {"from": "20240101", "to": "20240930", "requests": 58, "users": 130},
         {"from": "20241001", "to": "20241231", "requests": 165, "users": 464},
         {"from": "20240101", "to": "20241231", "requests": 223, "users": 594},
-        {"from": "20250101", "to": "20250331", "requests": 135, "users": 340}
+        {"from": "20250101", "to": "20250331", "requests": 135, "users": 340},
+        {"from": "20260101", "to": "20260331", "requests": 103, "users": 205}
     ],
     "CAN": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
@@ -167,13 +170,15 @@
     ],
     "AUT": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
-        {"from": "20250101", "to": "20250331", "requests": 61, "users": 92}
+        {"from": "20250101", "to": "20250331", "requests": 61, "users": 92},
+        {"from": "20260101", "to": "20260331", "requests": 165, "users": 359}
     ],
     "ISR": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "IRL": [
-        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
+        {"from": "20260101", "to": "20260331", "requests": 16, "users": 16}
     ],
     "SVN": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
@@ -215,15 +220,18 @@
         {"from": "20250401", "to": "20250630", "requests": 28, "users": 44},
         {"from": "20250701", "to": "20250930", "requests": 27, "users": 51},
         {"from": "20251001", "to": "20251231", "requests": 62, "users": 101},
-        {"from": "20250101", "to": "20251231", "requests": 168, "users": 343}
+        {"from": "20250101", "to": "20251231", "requests": 168, "users": 343},
+        {"from": "20260101", "to": "20260331", "requests": 70, "users": 117}
     ],
     "BGR": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
-        {"from": "20240101", "to": "20241231", "requests": 7, "users": 40}
+        {"from": "20240101", "to": "20241231", "requests": 7, "users": 40},
+        {"from": "20260101", "to": "20260331", "requests": 37, "users": 152}
     ],
     "DNK": [
         {"from": "20240101", "to": "20240930", "requests": 1, "users": 1},
-        {"from": "20240101", "to": "20241231", "requests": 43, "users": 68}
+        {"from": "20240101", "to": "20241231", "requests": 43, "users": 68},
+        {"from": "20260101", "to": "20260331", "requests": 27, "users": 69}
     ],
     "PHL": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
@@ -257,7 +265,8 @@
         {"from": "20240101", "to": "20241231", "requests": 302, "users": 1008},
         {"from": "20250101", "to": "20250331", "requests": 78, "users": 221},
         {"from": "20250401", "to": "20250630", "requests": 83, "users": 223},
-        {"from": "20250701", "to": "20250930", "requests": 118, "users": 333}
+        {"from": "20250701", "to": "20250930", "requests": 118, "users": 333},
+        {"from": "20260101", "to": "20260331", "requests": 117, "users": 282}
     ],
     "ARE": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
@@ -343,13 +352,15 @@
         {"from": "20240101", "to": "20241231", "requests": 14, "users": 23},
         {"from": "20250101", "to": "20250331", "requests": 6, "users": 7},
         {"from": "20250401", "to": "20250630", "requests": 6, "users": 8},
-        {"from": "20250701", "to": "20250930", "requests": 11, "users": 18}
+        {"from": "20250701", "to": "20250930", "requests": 11, "users": 18},
+        {"from": "20260101", "to": "20260331", "requests": 12, "users": 30}
     ],
     "FIN": [
         {"from": "20240101", "to": "20240930", "requests": 5, "users": 14},
         {"from": "20241001", "to": "20241231", "requests": 19, "users": 59},
         {"from": "20240101", "to": "20241231", "requests": 24, "users": 73},
-        {"from": "20250101", "to": "20250331", "requests": 60, "users": 166}
+        {"from": "20250101", "to": "20250331", "requests": 60, "users": 166},
+        {"from": "20260101", "to": "20260331", "requests": 58, "users": 132}
     ],
     "HUN": [
         {"from": "20240101", "to": "20240331", "requests": 0, "users": 0},
@@ -436,6 +447,9 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ],
     "PSE": [
+        {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
+    ],
+    "MDG": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
     ]
 }
