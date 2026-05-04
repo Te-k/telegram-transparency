@@ -274,7 +274,8 @@
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
         {"from": "20241001", "to": "20241231", "requests": 6, "users": 23},
         {"from": "20240101", "to": "20241231", "requests": 6, "users": 23},
-        {"from": "20250101", "to": "20250331", "requests": 0, "users": 0}
+        {"from": "20250101", "to": "20250331", "requests": 0, "users": 0},
+        {"from": "20260101", "to": "20260331", "requests": 1, "users": 6}
     ],
     "UZB": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0}
