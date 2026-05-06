@@ -275,6 +275,7 @@
         {"from": "20241001", "to": "20241231", "requests": 6, "users": 23},
         {"from": "20240101", "to": "20241231", "requests": 6, "users": 23},
         {"from": "20250101", "to": "20250331", "requests": 0, "users": 0},
+        {"from": "20250401", "to": "20250930", "requests": 0, "users": 0},
         {"from": "20260101", "to": "20260331", "requests": 1, "users": 6}
     ],
     "UZB": [
@@ -371,7 +372,8 @@
         {"from": "20240701", "to": "20240930", "requests": 3, "users": 11},
         {"from": "20240101", "to": "20240930", "requests": 4, "users": 12},
         {"from": "20241001", "to": "20241231", "requests": 11, "users": 13},
-        {"from": "20240101", "to": "20241231", "requests": 15, "users": 25}
+        {"from": "20240101", "to": "20241231", "requests": 15, "users": 25},
+        {"from": "20260101", "to": "20260331", "requests": 30, "users": 60}
     ],
     "CYP": [
         {"from": "20240101", "to": "20240930", "requests": 0, "users": 0},
