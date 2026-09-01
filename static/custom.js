@@ -78,6 +78,9 @@ function drawtable() {
         case "2026Q1":
           var entry = dataset[country].filter((entry) => entry["from"] == "20260101" && entry["to"] == "20260331")[0];
           break;
+        case "2026Q2":
+          var entry = dataset[country].filter((entry) => entry["from"] == "20260401" && entry["to"] == "20260630")[0];
+          break;
       }
 
       if (entry !== undefined) {
@@ -105,6 +108,7 @@ function drawCountry() {
   var entry2025q3 = dataset[country].filter((entry) => entry["from"] == "20250701" && entry["to"] == "20250930")[0];
   var entry2025q4 = dataset[country].filter((entry) => entry["from"] == "20251001" && entry["to"] == "20251231")[0];
   var entry2026q1 = dataset[country].filter((entry) => entry["from"] == "20260101" && entry["to"] == "20260331")[0];
+  var entry2026q2 = dataset[country].filter((entry) => entry["from"] == "20260401" && entry["to"] == "20260630")[0];
   if (entryq1 !== undefined) {
     $("#country-table").find('tbody')
     .append($('<tr class="temp">')
@@ -118,6 +122,7 @@ function drawCountry() {
         .append($('<td class="text-center">').text(entry2025q3 === undefined ? "Unknown" : entry2025q3.requests))
         .append($('<td class="text-center">').text(entry2025q4 === undefined ? "Unknown" : entry2025q4.requests))
         .append($('<td class="text-center">').text(entry2026q1 === undefined ? "Unknown" : entry2026q1.requests))
+        .append($('<td class="text-center">').text(entry2026q2 === undefined ? "Unknown" : entry2026q2.requests))
       );
       $("#country-table").find('tbody')
       .append($('<tr class="temp">')
@@ -135,6 +140,7 @@ function drawCountry() {
         .append($('<td class="text-center">').text(entry2025q3 === undefined ? "Unknown" : entry2025q3.users))
         .append($('<td class="text-center">').text(entry2025q4 === undefined ? "Unknown" : entry2025q4.users))
         .append($('<td class="text-center">').text(entry2026q1 === undefined ? "Unknown" : entry2026q1.users))
+        .append($('<td class="text-center">').text(entry2026q2 === undefined ? "Unknown" : entry2026q2.users))
       );
       $("#country-table").find('tbody')
       .append($('<tr class="temp">')
@@ -152,6 +158,7 @@ function drawCountry() {
         .append($('<td class="text-center">').text(entry2025q3 === undefined ? "Unknown" : entry2025q3.requests))
         .append($('<td class="text-center">').text(entry2025q4 === undefined ? "Unknown" : entry2025q4.requests))
         .append($('<td class="text-center">').text(entry2026q1 === undefined ? "Unknown" : entry2026q1.requests))
+        .append($('<td class="text-center">').text(entry2026q2 === undefined ? "Unknown" : entry2026q2.requests))
       );
       $("#country-table").find('tbody')
       .append($('<tr class="temp">')
@@ -166,6 +173,7 @@ function drawCountry() {
         .append($('<td class="text-center">').text(entry2025q3 === undefined ? "Unknown" : entry2025q3.users))
         .append($('<td class="text-center">').text(entry2025q4 === undefined ? "Unknown" : entry2025q4.users))
         .append($('<td class="text-center">').text(entry2026q1 === undefined ? "Unknown" : entry2026q1.users))
+        .append($('<td class="text-center">').text(entry2026q2 === undefined ? "Unknown" : entry2026q2.users))
       );
       $("#country-table").find('tbody')
       .append($('<tr class="temp">')
